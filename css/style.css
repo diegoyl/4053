@@ -1,0 +1,16 @@
+:root {
+    --main-color: rgb(252, 101, 113);
+}
+
+
+body,p,h1,h2,h3,h4,h5,h6 {font-family: 'Work Sans', sans-serif;} /* change to sans-serif when readt */
+
+#main {
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+} 
+#image {
+    height: 800px;
+    outline: red 2px solid;
+}
