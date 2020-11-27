@@ -63,6 +63,10 @@ const sources = [
 ]
 const count = 55;
 function init() {	
+	play();
+}
+
+function play() {
 	var i = 0
 	var intervalID = window.setInterval(myCallback, gap);
 	function myCallback() {
@@ -78,14 +82,9 @@ function init() {
 				if (j==count) {
 					window.clearInterval(intervalID2);
 					$("#image").attr("src","img/0.png");
-
 				}
 			}
 		}
 	}
-	
-	 
-
-
+	play();
 }
-
